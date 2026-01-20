@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.marquees-container {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.marquee {
+    --marquee--colour: #f3bb0b;
+    --marquee--duration: 20s;
+    overflow: hidden;
+    width: 160%;
+    margin-left: -30%;
+    background: var(--marquee--colour);
+    color: #000;
+    transform: rotate(-3deg);
+    display: flex;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.marquee:nth-child(even) {
+    background: #000;
+    color: var(--marquee--colour);
+    transform: rotate(2deg);
+    margin-top: -10px;
+    z-index: 2;
+}
+
+.marquee--inner {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee_anim var(--marquee--duration) infinite linear;
+}
+
+.marquee p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.marquee p::after {
+    content: " ★ ";
+    margin-left: 40px;
+}
+
+@keyframes marquee_anim {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.react-tagsinput-input::placeholder { color: transparent !important; }
+
+.st-emotion-cache-wfksaw {
+    gap: 0 !important;
+}
