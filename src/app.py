@@ -18,7 +18,7 @@ with col_a:
     t_titulo = st_tags(
         label='',
         text='Digite e aperte ENTER',
-        value=['ANGULAR', 'C#'],
+        value=[],
         key='techs'
     )
 
@@ -26,7 +26,7 @@ with col_a:
     t_obrigatorios = st_tags(
         label='',
         text='Digite e aperte ENTER',
-        value=['.NET', 'BRASIL'],
+        value=['BRASIL'],
         key='must'
     )
 
