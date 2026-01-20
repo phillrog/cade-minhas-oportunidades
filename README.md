@@ -1,4 +1,4 @@
-﻿# Cadê Minhas Oportunidades ?
+# [![Build Cadê Minhas Oportunidades ?](https://github.com/phillrog/cade-minhas-oportunidades/actions/workflows/build-com-conda.yml/badge.svg?branch=main)](https://github.com/phillrog/cade-minhas-oportunidades/actions/workflows/build-com-conda.yml) - [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cade-minhas-oportunidades.streamlit.app)
 
 O **Cadê Minhas Oportunidades?** é uma ferramenta de geração de **Google Dorking** para buscar no Google oportunidades do LinkedIn de forma muito mais precisa que a busca nativa da plataforma.
 
@@ -120,3 +120,4 @@ Exemplo de URL
 ```
 https://www.google.com/search?q=site%3Abr.linkedin.com%20%28inurl%3Ajobs/view%20OR%20inurl%3Aposts%29%20intitle%3A%28%22C%23%22%20OR%20%22ANGULAR%22%29%20%22.NET%22%20%22BRASIL%22%20%28%22REMOTO%22%20OR%20%22HOME%20OFFICE%22%29&tbs=cdr:1,cd_min:01/17/2026,cd_max:01/20/2026&sort=date:r
 ```
+
