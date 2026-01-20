@@ -24,15 +24,15 @@ class UIComponents:
             <section class="marquee">
                 <div class="marquee--inner">                
                     <p>FULLSTACK .NET SÊNIOR</p><p>VAGAS .NET C#</p><p>VAGA REMOTO</p>
-                    <p>CADÊ MINHAS OPORTUNIDADES</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
+                    <p>CADÊ MINHAS OPORTUNIDADES ?</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
                     <p>CONTRATAÇÃO IMEDIATA</p><p>VAGAS .NET ANGULAR</p><p>VAGA PRESENCIAL</p>
                 </div>
             </section>
             <section class="marquee">
                 <div class="marquee--inner">
-                    <p>CADÊ MINHAS OPORTUNIDADES</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
+                    <p>CADÊ MINHAS OPORTUNIDADES ?</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
                     <p>CONTRATAÇÃO IMEDIATA</p><p>VAGAS .NET ANGULAR</p><p>VAGA PRESENCIAL</p>
-                    <p>CADÊ MINHAS OPORTUNIDADES</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
+                    <p>CADÊ MINHAS OPORTUNIDADES ?</p><p>PRESENCIAL, HÍBRIDO OU REMOTO</p><p>SALÁRIOS ACIMA DA MÉDIA</p>
                 </div>
             </section>
         </div>
